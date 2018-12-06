@@ -5,7 +5,7 @@ describe "#oxford_comma" do
   it "adds 'and' between elements when given a 2-element array" do
     expect(oxford_comma(["kiwi", "durian"])).to eq("kiwi and durian")
   end
-  it "adds commas plus a final 'and' when given a 3-element array" do
+  it "adds commas plus a final 'and' when given a 3https://learn.co/tracks/web-development-fundamentals/intro-to-ruby/arrays-and-iteration/oxford-comma#-element array" do
     expect(oxford_comma(["kiwi", "durian", "starfruit"])).to eq("kiwi, durian, and starfruit")
   end
   it "correctly formats arrays of lengths greater than three" do
